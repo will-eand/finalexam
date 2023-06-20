@@ -17,10 +17,9 @@ public class StringCalculatorTest {
 
     }
     @Test
-    public void StringCalculatorTest2() {
+    public void StringCalculatorTest2() throws Exception {
 
-        assertTrue(
-        });
+        assertEquals(stringCalc.add("5,2"), 7);
 
     }
 
